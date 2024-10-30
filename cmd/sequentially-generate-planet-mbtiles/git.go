@@ -21,7 +21,7 @@ var gh repos
 func cloneRepos() {
 	gh = repos{
 		gdal: git.Repo{
-			Url: "https://github.com/lambdajack/gdal",
+			Url: "https://github.com/OSGeo/gdal",
 			Dst: filepath.Join(pth.temp, "gdal"),
 		},
 		osmiumTool: git.Repo{
